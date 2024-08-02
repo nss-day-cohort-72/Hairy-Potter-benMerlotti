@@ -120,12 +120,12 @@ In the `main.js` module, invoke the `PotteryList` component function. Take its r
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. Explain how you got the HTML, with the correct data, displayed in the browser?
-   > Your answer here
+   > First I set a variable equal to the relevant ID in the DOM using the getElementById method. I had a function that would output a string of the necessary HTML for the article in the index.html, so using the .innerHTML method on the aforementioned variable linked to the class I set it equal to the newly defined string of HTML.
 2. In the **PotteryList** module, when you iterate your pottery, you need to show the evidence of what the **weight** property's value is for the 2nd piece of pottery. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+   > https://www.loom.com/share/058e3d8146a2461ebc04e4593ca3d595?sid=d58e2271-d855-4103-9c9a-e21d3537a4ba
 3. The **PotteryWheel** module has a single function named `makePottery`. Why doesn't that module have all of the other code in it?
-   > Your answer here
+   > It is cleaner to invoke the function in main otherwise you would have to be exporting a lot of variables around the modules and it can create circular dependencies that can cause headaches. 
 4. The pottery shop has learned that there is a set of customers that are willing to buy cracked pottery at a discounted price of $2.50. That means that the cracked pottery should now be displayed in the catalog. Explain the changes that this new business strategy would cause to your algorithm.
-   > Your answer here
+   > I would need to add in a conditional statement in Pottery catalog that accounted for a true value for the cracked property and assign a value of $2.50 to the price property.
 5. In the **Kiln** module, you have a `firePottery()` function. You need to demonstrate how to use the debugger to verify the values of the parameters for that function when your code runs. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+   > https://www.loom.com/share/e5047db7698f4400a0aae61c9a9156a4?sid=572c3fce-9eae-4151-9dfd-4aefdf6678f8s
